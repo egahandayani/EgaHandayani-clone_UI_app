@@ -2,7 +2,7 @@ export default function LevelCard() {
   return (
     <div className="max-w-lg w-full bg-white rounded-lg shadow-2xl p-8 space-y-6">
       <div className="flex justify-between items-center">
-        <h2 className="text-3xl font-bold text-gray-800">Your level</h2>
+        <h2 className="text-3xl font-bold text-gray-800">Your Level</h2>
         <button className="text-orange-500 text-base font-bold uppercase hover:text-orange-600">
           Learn More
         </button>
@@ -77,9 +77,9 @@ export default function LevelCard() {
       <div className="mt-6">
         <div className="border-b-2 border-gray-400"></div>
         <p className="text-left text-lg mt-4">
-          Spend <span className="font-bold text-grey-500">3,000,000</span> by{" "}
-          <span className="font-bold text-grey-500">23 Nov 2024</span> to reach{" "}
-          <span className="font-bold text-grey-500">Gold</span>
+          Spend <span className="font-bold text-gray-800">3,500,001</span> by{" "}
+          <span className="font-bold text-gray-800">23 Nov 2024</span> to reach{" "}
+          <span className="font-bold text-gray-800">Gold</span>
         </p>
       </div>
     </div>
