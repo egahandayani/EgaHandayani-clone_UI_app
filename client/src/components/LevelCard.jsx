@@ -1,6 +1,6 @@
 export default function LevelCard() {
   return (
-    <div className="max-w-lg w-full bg-white rounded-lg shadow-2xl p-8 space-y-6">
+    <div className="max-w-lg w-full bg-white rounded-lg shadow-xl p-8 space-y-6">
       <div className="flex justify-between items-center">
         <h2 className="text-3xl font-bold text-gray-800">Your Level</h2>
         <button className="text-orange-500 text-base font-bold uppercase hover:text-orange-600">
