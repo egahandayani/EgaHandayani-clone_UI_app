@@ -129,7 +129,7 @@ export default function HomePage() {
         <PointCard />
       </div>
       {/* List Menu */}
-      <div className="mt-12 w-full flex justify-center items-center">
+      <div className="mt-2 w-full flex justify-center items-center">
         <ListMenu />
       </div>
       {/* Refer Card */}
