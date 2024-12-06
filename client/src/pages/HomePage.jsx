@@ -28,24 +28,6 @@ export default function HomePage() {
       name: "Iced Green Tea",
       points: 50,
     },
-    {
-      image:
-        "https://www.bakmigm.com/cfind/source/thumb/images/menu/cover_w255_h255_107-pangsit-kuah.png",
-      name: "Pangsit Kuah",
-      points: 100,
-    },
-    {
-      image:
-        "https://www.bakmigm.com/cfind/source/thumb/images/cover_w255_h255_yfm-compressed.jpg",
-      name: "Yi Fu Mie Ni Frozen",
-      points: 200,
-    },
-    {
-      image:
-        "https://www.bakmigm.com/cfind/source/thumb/images/menu/cover_w255_h255_96-ayam-goreng-saus-thai.png",
-      name: "Ayam Goreng Saus Thai",
-      points: 250,
-    },
   ];
 
   // Data Hard Coded Privileges
@@ -137,8 +119,8 @@ export default function HomePage() {
         <ReferCard />
       </div>
       {/* Reward Card */}
-      <div className="mt-12 px-4">
-        <div className="flex justify-between items-center mb-3">
+      <div className="mt-2 px-4">
+        <div className="flex justify-between items-center">
           <h2 className="text-xl font-bold text-gray-800">
             Redeem Your Rewards
           </h2>
@@ -146,9 +128,12 @@ export default function HomePage() {
             href="/rewards"
             className="text-orange-500 text-sm font-bold hover:underline"
           >
-            See All
+            SEE ALL
           </a>
         </div>
+        <p className="text-sm text-gray-700 mb-4">
+          Earn more to get your rewards
+        </p>
         <div className="grid grid-cols-3 gap-3">
           {rewards.map((reward, index) => (
             <RewardCard
@@ -160,7 +145,6 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-
       {/* Privileges Card */}
       <div className="mt-12 px-4">
         <div className="flex justify-between items-center mb-3">
@@ -199,7 +183,7 @@ export default function HomePage() {
             href="/outlets"
             className="text-orange-500 font-bold uppercase hover:underline"
           >
-            See All
+            SEE ALL
           </a>
         </div>
       </div>
