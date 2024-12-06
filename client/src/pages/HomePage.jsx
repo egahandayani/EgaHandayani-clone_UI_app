@@ -121,7 +121,7 @@ export default function HomePage() {
       {/* Carousel */}
       <Carousel />
       {/* Level Card */}
-      <div className="mt-12 w-full flex justify-center items-center">
+      <div className="mt-2 w-full flex justify-center items-center">
         <LevelCard />
       </div>
       {/* Point Card */}
