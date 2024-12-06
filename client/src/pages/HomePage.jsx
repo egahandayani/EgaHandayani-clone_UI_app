@@ -119,7 +119,7 @@ export default function HomePage() {
         <ReferCard />
       </div>
       {/* Reward Card */}
-      <div className="mt-2 px-4">
+      <div className="mt-10 px-4">
         <div className="flex justify-between items-center">
           <h2 className="text-xl font-bold text-gray-800">
             Redeem Your Rewards
@@ -146,10 +146,13 @@ export default function HomePage() {
         </div>
       </div>
       {/* Privileges Card */}
-      <div className="mt-12 px-4">
-        <div className="flex justify-between items-center mb-3">
+      <div className="mt-10 px-4">
+        <div className="flex justify-between items-center">
           <h2 className="text-xl font-bold text-gray-800">Privileges</h2>
         </div>
+        <p className="text-sm text-gray-700 mb-4">
+          Keep discovering our promo and news
+        </p>
         <div className="grid grid-cols-2 gap-3">
           {privileges.map((privilege, index) => (
             <PrivilegesCard
@@ -161,13 +164,10 @@ export default function HomePage() {
           ))}
         </div>
       </div>
-
       {/* Outlet Info */}
-      <div className="mt-12 px-4">
-        <h2 className="text-xl font-bold text-gray-800 mb-2">
-          Outlet Location
-        </h2>
-        <p className="text-sm text-gray-700 mb-3">Explore your options</p>
+      <div className="mt-10 px-4">
+        <h2 className="text-xl font-bold text-gray-800">Outlet Location</h2>
+        <p className="text-sm text-gray-700 mb-4">Explore your options</p>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {outlets.map((outlet, index) => (
             <OutletInfo
