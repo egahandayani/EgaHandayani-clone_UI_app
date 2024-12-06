@@ -133,7 +133,7 @@ export default function HomePage() {
         <ListMenu />
       </div>
       {/* Refer Card */}
-      <div className="mt-12 w-full flex justify-center items-center">
+      <div className="mt-2 w-full flex justify-center items-center">
         <ReferCard />
       </div>
       {/* Reward Card */}
