@@ -8,10 +8,10 @@ export default function Carousel() {
       <Swiper
         modules={[Autoplay]}
         autoplay={{ delay: 3000, disableOnInteraction: false }}
-        spaceBetween={30}
+        spaceBetween={0}
         slidesPerView={1}
         loop={true}
-        className="h-[50vh] sm:h-[60vh] lg:h-[70vh]"
+        className="h-[30vh] sm:h-[40vh] md:h-[50vh]"
       >
         <SwiperSlide>
           <img
